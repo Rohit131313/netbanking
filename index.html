@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10%;
+    }
+    .div{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background-color:grey;
+      box-shadow: 10px 10px black;
+      display:block;
+      border-radius:1vh;
+      padding:3%;
+    }
+    h1{
+        background-color: white;
+    }
+    input{
+        background-color: aqua;
+        border:1vh solid grey;
+        font-size: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="div">
+    <h1>Select Bank</h1>
+    <label for="bank"></label>
+    <select id="bank">
+    <a href="https://retail.axisbank.co.in/wps/portal/rBanking/AxisSMRetailLogin/axissmretailpage?AuthenticationFG.MENU_ID=CIMSHP&AuthenticationFG.CALL_MODE=2&CATEGORY_ID=IRRAZB"><option value="Axis">Axis Bank</option></a>
+    <a href="https://www.kotak.com/pmtgt/ksecLogin.jsp"><option value="Kotak">Kotak Mahindra Bank</option></a>
+    <a href="https://yesonline.yesbank.co.in/index.html?module=login"><option value="Yes">Yes Bank</option></a>
+    <a href="https://inet.idbibank.co.in/ret/AuthenticationController?"><option value="IDBI">IDBI</option></a>
+    <a href="https://feba.bobibanking.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=012&AuthenticationFG.USER_TYPE=1&AuthenticationFG.MENU_ID=CIMSHP&AuthenticationFG.CALL_MODE=2&CATEGORY_ID=RAZ"><option value="BOB">Bank of Baroda-Retail Banking</option></a>
+    <a href="https://gateway.pnbibanking.in/Razorpay/request.aspx"><option value="PNB">Punjab National Bank-Retail Banking</option></a>
+    <p>Pay : $99</p>
+  </select>
+  <input type="submit">
+</div>
+</body>
+</html>
